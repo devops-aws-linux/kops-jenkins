@@ -20,7 +20,7 @@ pipeline {
             }
         }
         
-        stage("Maven Package") {
+        stage("Java Version") {
             steps {
                 container("maven"){
                    sh  'java -version'
