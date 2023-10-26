@@ -6,11 +6,6 @@ metadata:
       app: dynamic-agents
 spec:
   containers:
-  - name: git
-    image: bitnami/git:latest
-    command:
-    - cat
-    tty: true
   - name: maven
     image: maven:3.8.3-openjdk-17
     command:

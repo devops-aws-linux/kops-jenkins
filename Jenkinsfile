@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage("GitVersion"){
             steps{
-                container("git"){
+                container("maven"){
                     sh 'git --version'
                 }
             }
